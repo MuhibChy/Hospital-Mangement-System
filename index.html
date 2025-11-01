@@ -2,12 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hospital Management System</title>
-    <script type="module" crossorigin src="/Hospital-Mangement-System/assets/index-D2LxtSUj.js"></script>
-    <link rel="stylesheet" crossorigin href="/Hospital-Mangement-System/assets/index-vjxWWOn6.css">
-  </head>
-  <body>
-    <div id="root"></div>
+    <title>React Hospital Management System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#0D9488', // Teal 600
+              'primary-focus': '#0F766E', // Teal 700
+              'primary-content': '#ffffff',
+              secondary: '#0891B2', // Cyan 600
+              accent: '#6366F1', // Indigo 500
+              neutral: '#374151', // Gray 700
+              'base-100': '#F9FAFB', // Gray 50
+              'base-200': '#F3F4F6', // Gray 100
+              'base-300': '#E5E7EB', // Gray 200
+              info: '#2563EB', // Blue 600
+              success: '#16A34A', // Green 600
+              warning: '#F59E0B', // Amber 500
+              error: '#DC2626', // Red 600
+            },
+          },
+        },
+      }
+    </script>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/Hospital-Mangement-System/assets/index-lllsVC3T.js"></script>
+</head>
+  <body class="bg-gradient-to-br from-cyan-50 to-blue-200">
+    <div id="root"></div>
   </body>
 </html>
