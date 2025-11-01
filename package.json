@@ -6,7 +6,7 @@
   "homepage": "https://muhibchy.github.io/Hospital-Mangement-System",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/Hospital-Mangement-System/",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
