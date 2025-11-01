@@ -1,0 +1,5 @@
+{
+  "name": "React Hospital Management System",
+  "description": "A lightweight and simple Hospital Management System for managing multiple hospitals, doctors, patients, cabins, and finances. Built with React, TypeScript, and Tailwind CSS, featuring AI-powered patient summaries via the Gemini API.",
+  "requestFramePermissions": []
+}
